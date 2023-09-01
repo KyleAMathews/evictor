@@ -1,0 +1,21 @@
+{
+  "name": "mark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "vitest",
+    "generate": "drizzle-kit generate:sqlite --out migrations-folder --schema schema/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "drizzle-kit": "^0.19.13",
+    "vitest": "^0.34.3"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.5.2",
+    "drizzle-orm": "^0.28.5"
+  }
+}
